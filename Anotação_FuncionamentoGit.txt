@@ -1,0 +1,21 @@
+----------- Git e Github -----------
+
+GUI x CLI:
+	GUI: Grafic User Interface, Clicar e arrastar.
+	CLI: Command Line Interface, Terminal (Git).
+
+	:: COMANDOS BÁSICOS GIT ::
+
+WINDOWS:
+	-cd (mudar de diretório); -dir (listar); -mkdir (criar diretórios/pastas); -del (apenas arquivos do diretorio)/rmdir (apagar diretórios/pastas recursivamente); -cls (limpar tela do terminal); TAB (autocompletar); echo (print > redirecionar);
+UNIX (LINUX / APPLE):
+	-cd (mudar de diretório); -ls (listar); -mkdir (criar diretórios/pastas); -rm -rf (apagar diretórios/pastas); -clear/CTRL+L (limpar tela do terminal); TAB (autocompletar); echo (print > redirecionar)
+
+	:: FUNCIONAMENTO DO GIT::
+
+* SHA1: algoritmo de encriptação (Secure Hash Algorithm). Forma curta de representar um arquivo.
+
+* Objetos internos:
+	- BLOB/"bolhas": Objeto/arquivo. Metadados do Blob: Tipo de objeto (Blob), tamanho da string/arquivo, '\0', conteudo do arquivo. (SHA1 do arquivo).
+	- TREES: Armazena Blobs, aponta para blobs ou outras arvores. Usa os metadados do Blob, e adiciona o nome do blob. (SHA1 das Blobs/arvores).
+	- COMMITS: aponta para uma arvore, aponta para um parente(ultimo commit feito), aponta para o autor, para a mensagem e para o timestamp ("data e hora"). (SHA1 dos metadados de arvores e blobs).
