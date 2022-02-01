@@ -1,0 +1,8 @@
+----------- Pensamento Computacional -----------
+
+	Pensamento sistemático e eficiente. Possui 4 pilares: Decomposição, Reconhecer padrões, Abstração e Algoritmos.
+	Habilidades complementares: Raciocínio lógico(Indução, Dedução e Abdução) e Aperfeiçoamento.
+* Decomposição: Quebrar o problema origem/grande em problemas menores, resolvê-los e agregar novamente. 1-Análise, 2-Síntese, 3-Execução(Sequencial/Paralelo). Ex do cotidiano:Cozinhar
+* Reconhecimento de padrões: Modelo base, Estrutura invariante, Repetição. Generalizar, classificar.
+* Abstração: Generalização, reunir numa classe geral elementos similares. Atentar às caracteristicas essenciais.
+* Algoritmo: Instruções passo a passo p/ resolver um problema. Narrativa > Fluxograma > Pseudocódigo

@@ -1,0 +1,15 @@
+----------- Estrutura de Dados -----------
+
+	Estrutura organizada de dados na memória(de um pc, driver etc) onde os dados possam ser usados corretamente.
+	Vetores e Matrizes(Arrays) são úteis quando há muitas variáveis/dados do mesmo tipo.
+* Registro: permite armazenar dados de tipos diferentes ex:Números,caracteres. E são compostos por campos que especificam cada uma das informações. Para acessar seus campo usa o "." ex: cliente.cpf, livro.preço, aluno.nome.
+* Lista: armazena dados de um tipo em uma ordem específica. Possuem tamanho ajustável, diferente dos arrays q tem tamanho fixo.
+	-L.Ligada: o nó conhece o valor armazenado nele e conhece o nó posterior a ele.
+	-L.Duplamente ligada: bidirecional. O nó sabe o posterior e anterior, permitindo navegação reversa
+* Pilha: coleção de elementos; permite acesso(ler/escrever) a somente um item de dados armazenado, acesso restrito.
+	-LIFO/UEPS: o primeiro elemento a ser retirado é o último que tiver sido inserido. Ultimo a entrar, primeiro a sair.
+	-FIFO/PEPS: o primeiro elemento a ser retirado é o primeiro que tiver sido inserido. Primeiro a entrar, primeiro a  sair.
+* Fila: o elemento removido é o que está na estrutura a +tempo (FIFO).
+* Árvore: organiza seus elemento hieraquicamente, existe o elemento raiz e elementos subordinados chamados de nós ou folhas.
+* Tabela Hash: associa chaves de pesquisa aos valores. "hashing" função de espalhamento de elementos de modo não ordenado.
+* Grafos: permite programar a relação entre objetos. Objetos são vértices/nós e os relacionamentos são arestas.
